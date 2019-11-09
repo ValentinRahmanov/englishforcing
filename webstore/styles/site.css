@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans.ttf');
+}
+
+@font-face {
+    font-family: Huntsman;
+    src: url('../fonts/Huntsman.otf');
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #5e5e5e;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: url('../images/back.jpeg') no-repeat;
+    background-size: cover;
+}
+
+#headerInside {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url('../images/origami-logo.svg') no-repeat;
+    background-size: contain;
+}
+
+#companyName {
+    font-family: Huntsman, sans-serif;
+    float: left;
+    margin-left: 15px;
+    font-size: 22px;
+    line-height: 50px;
+    color: #fff;
+}
+
+#navWrap {
+    height: 50px;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#navWrap a {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0 20px;
+    height: 70px;
+    line-height: 70px;
+}
+
+#navWrap a:hover {
+    background: #5e5e5e;
+}
+
+#navWrap a:last-child {
+    border-left: none;
+}
+
+#glue {
+    margin-left: 30px;
+}
+
+#kla {
+    width: 100%;
+    height: 200px;
+}
