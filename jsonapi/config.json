@@ -1,0 +1,10 @@
+{
+	"db" : {
+		"dbusername": "",
+		"dbpassword": "",
+		"port": "",
+		"dbhost": "127.0.0.1",
+		"dbname": "postgres"
+	}
+}
+
