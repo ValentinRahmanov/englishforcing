@@ -1,0 +1,18 @@
+{
+	"db" : {
+		"dbusername": "",
+		"dbpassword": "",
+		"port": "",
+		"dbhost": "127.0.0.1",
+		"dbname": ""
+	},
+
+	"yandex_xml" : {
+		"api_url_for_request_first_part" : "https://yandex.ru/search/xml?user=english",
+		"api_url_for_request_second_part" : ""
+	},
+
+	"plants_list" : {
+
+	}
+}
