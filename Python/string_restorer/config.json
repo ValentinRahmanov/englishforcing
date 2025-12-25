@@ -1,0 +1,4 @@
+{
+    "file_to_read" : "compressed_string.txt",
+    "file_with_result" : "result.txt"
+}
